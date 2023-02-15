@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  background-color: whitesmoke;
+  color: black;
+  
+  height: 40px;
+  width: 1000px;
+
+  padding: 20px;
+  margin: 80px;
+}
+
+.title{
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+container{
+  display: flex;
+  width: 100%;
+}
+container div{
+  flex: 1;
+  padding: 20px;
+}
+container nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 8;
+
+  font-weight: bolder;
+}
+container a{
+  padding: 10px;
+}
+.main_benner{
+  width: 800px;
+  height: 300px;
+}
+.flexbox{
+  display:flex;
+}
+.flexbox img{
+  width: 800px;
+  height: 300px;
+  flex:none
+}
